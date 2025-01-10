@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <title>Basketball Scoreboard</title>
+</head>
+<body class="bg-teal-950 text-white flex items-center justify-center">
+  <main class="flex gap-10 m-20">
+    <div class="flex flex-col gap-5">
+      <div>
+        <h1 class="text-5xl">HOME</h1>
+      </div>
+      <div class="bg-stone-800 text-center py-7 px-5 rounded-md">
+        <span class="text-red-400 text-7xl font-bold home-score">0</span>
+      </div>
+      <div class="container">
+        <button class="home-one-button">+1</button>
+        <button class="home-two-button">+2</button>
+        <button class="home-three-button">+3</button>
+        <button class="home-reset-button">Reset</button>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5">
+      <div>
+        <h1 class="text-5xl">GUEST</h1>
+      </div>
+      <div class="bg-stone-800 text-center py-7 px-5 rounded-md">
+        <span class="text-red-400 text-7xl font-bold guest-score">0</span>
+      </div>
+      <div class="container">
+        <button class="guest-one-button">+1</button>
+        <button class="guest-two-button">+2</button>
+        <button class="guest-three-button">+3</button>
+        <button class="guest-reset-button">Reset</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
